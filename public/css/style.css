@@ -1,0 +1,45 @@
+body {
+    background: url('../img/25501.jpg');
+    background-size: cover;
+    font-family: 'Kristen ITC';
+    font-weight: bolder;
+    margin-top: 7%;
+}
+.container {
+    text-align: center;
+    color: #252a34;
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'Kristen ITC';
+    src: url('../fonts/Kristen ITC.ttf')
+    format('truetype');
+}
+
+#locationText {
+    border: 1px solid grey;
+    width: 20%;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#submitBtn {
+    border: 1px solid grey;
+    width: 20%;
+    height: 35px;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color:darkgreen;
+    height: 40px;
+    
+}
+
+#result {
+    font-size: 30px;
+    color: #e0fcff;
+}
