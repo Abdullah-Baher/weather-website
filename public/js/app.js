@@ -8,7 +8,7 @@ htmlForm.addEventListener('submit',(e) => {
     e.preventDefault();
     const location = document.getElementById('locationText');
     
-    fetch('http://localhost:3000/weather?address=' + location.value)
+    fetch('/weather?address=' + location.value)
     .then((response) => response.json()) .then((data) => {
         const resultText = document.getElementById('result');
         
