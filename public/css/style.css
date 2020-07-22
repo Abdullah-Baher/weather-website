@@ -1,10 +1,15 @@
 body {
-    background: url('../img/25501.jpg');
+    background: url(../img/25501.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     font-family: 'Kristen ITC';
     font-weight: bolder;
     margin-top: 7%;
+    
 }
+
 .container {
     text-align: center;
     color: #252a34;
